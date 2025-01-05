@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply flex h-screen items-center justify-center bg-black text-white;
+}
+
+main {
+  @apply flex flex-col items-center space-y-3;
+}
+
+button {
+  @apply px-4 py-2 rounded min-w-60 text-center bg-blue-500  hover:bg-blue-600 focus:outline-none focus:ring-1 focus:ring-white disabled:opacity-50 disabled:pointer-events-none hover:underline underline-offset-4;
+}
+
+h1 {
+  @apply text-2xl font-bold;
+}
